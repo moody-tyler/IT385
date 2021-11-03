@@ -1,13 +1,14 @@
 #!/usr/bin/python3
 password = input("Choose a password to be evaluated: ")
 
-#Checking for capitalization
+#Setting Variables
 lowercase = False
 uppercase = False
 number = False
 specialChar = False
 passLength = False
 
+#Evaluating password characteristics
 for letter in password:
     if letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
         uppercase = True
